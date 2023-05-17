@@ -17,14 +17,11 @@
 /MelissaUpdater/
 
 Data/
-com/
 
 mdEmail.dll
-mdEMail.dll.hash
+mdEmail.dll.hash
 libmdEmail.so
-libmdEMail.so.hash
+libmdEmail.so.hash
 
-#include
-!mdEmail.jar
 
 

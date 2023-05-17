@@ -1,2 +1,1 @@
-Class-Path: mdEmail.jar
 Main-Class: MelissaEmailObjectWindowsJava
