@@ -59,22 +59,21 @@ public class MelissaEmailObjectWindowsJava {
 
       // Print user input
       System.out.println("\n============================== INPUTS ==============================\n");
-      System.out.println("\t               Email: " + dataContainer.Email);
+      System.out.println("\t                Email: " + dataContainer.Email);
 
       // Execute Email Object
       emailObject.ExecuteObjectAndResultCodes(dataContainer);
 
       // Print output
       System.out.println("\n============================== OUTPUT ==============================\n");
-      System.out.println("\n\tEmail Object Information:");
+      System.out.println("\n\t      Email Object Information:");
 
-      System.out.println("\t                    Email: " + dataContainer.Email);
-      System.out.println("\t              MailBoxName: " + emailObject.mdEmailObj.GetMailBoxName());
-      System.out.println("\t               DomainName: " + emailObject.mdEmailObj.GetDomainName());
-      System.out.println("\t           TopLevelDomain: " + emailObject.mdEmailObj.GetTopLevelDomain());
-      System.out.println("\tTopLevelDomainDescription: " + emailObject.mdEmailObj.GetTopLevelDomainDescription());
-
-      System.out.println("\t  Result Codes: " + dataContainer.ResultCodes);
+      System.out.println("\t                       Email: " + dataContainer.Email);
+      System.out.println("\t                Mailbox Name: " + emailObject.mdEmailObj.GetMailBoxName());
+      System.out.println("\t                 Domain Name: " + emailObject.mdEmailObj.GetDomainName());
+      System.out.println("\t            Top-Level Domain: " + emailObject.mdEmailObj.GetTopLevelDomain());
+      System.out.println("\tTop-Level Domain Description: " + emailObject.mdEmailObj.GetTopLevelDomainDescription());
+      System.out.println("\t                Result Codes: " + dataContainer.ResultCodes);
 
       String[] rs = dataContainer.ResultCodes.split(",");
       for (String r : rs) {
