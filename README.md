@@ -23,7 +23,7 @@ And return
 
 ## Tested Environments
 - Windows 10 64-bit Java 19, Powershell 5.1
-- Melissa data files for 2024-09
+- Melissa data files for 2024-10
 
 ## Required Files and Programs
 
@@ -68,8 +68,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/EmailObject-Java
-$ cd EmailObject-Java
+git clone https://github.com/MelissaData/EmailObject-Java
+cd EmailObject-Java
 ```
 
 #### Set up Melissa Updater 
@@ -103,25 +103,25 @@ Parameters:
 When you have modified the script to match your data location, let's run the script. There are two modes:
 - Interactive 
 
-	The script will prompt the user for an email address, then use the provided number to test Email Object.  For example:
-	```
-	$ .\MelissaEmailObjectWindowsJava.ps1
-	```
+    The script will prompt the user for an email address, then use the provided number to test Email Object.  For example:
+    ```
+    .\MelissaEmailObjectWindowsJava.ps1
+    ```
     For quiet mode:
     ```
-    $ .\MelissaEmailObjectWindowsJava.ps1 -quiet
+    .\MelissaEmailObjectWindowsJava.ps1 -quiet
     ```
 - Command Line 
 
-	You can pass an email address in ```-email``` parameter and a license string in ```-license``` parameter to test Email Object. For example:
-	```
-    $ .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" 
-    $ .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" -license "<your_license_string>"
+    You can pass an email address in ```-email``` parameter and a license string in ```-license``` parameter to test Email Object. For example:
     ```
-	For quiet mode:
+    .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" 
+    .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" -license "<your_license_string>"
     ```
-    $ .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" -quiet
-    $ .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" -license "<your_license_string>" -quiet
+    For quiet mode:
+    ```
+    .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" -quiet
+    .\MelissaEmailObjectWindowsJava.ps1 -email "info@melissa.com" -license "<your_license_string>" -quiet
     ```
 This is the expected output from a successful setup for interactive mode:
 
