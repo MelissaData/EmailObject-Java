@@ -68,8 +68,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/java/melissaemailobjectwindowsjava.git
-cd melissaemailobjectwindowsjava
+git clone https://github.com/MelissaData/EmailObject-Java
+cd EmailObject-Java
 ```
 
 #### Set up Melissa Updater 
